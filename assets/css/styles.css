@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 30px 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(206, 206, 206);
+  display: grid;
+  place-items: center;
+}
+
+.btn-main {
+  color: black;
+  text-transform: capitalize;
+  padding: 2px 0px;
+  border-radius: 0.38rem;
+  width: 70px;
+  font-size: 14px;
+}
+
+.btn-main:focus {
+  box-shadow: none !important;
+}
+
+.btn-main-active {
+  background-color: var(--bs-purple);
+  color: white;  
+}
+
+.btn-main-active:focus {
+  box-shadow: none !important;
+}
+
+.btn-main-active:hover {
+  background-color: #683cb7;
+  color: white
+}
+
+.complete {
+  color: var(--bs-purple);
+}
+
+.container {
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: -2px 5px 12px 0px rgba(0,0,0,0.15);
+  padding: 0 24px !important;
+}
+
+.app__header-user div {
+  width: 30px;
+  height: 30px;
+}
+
+.app__app__description-title {
+  text-transform: capitalize;
+}
+
+.app__search > .input-group {
+  box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 15%);
+  border-radius: 11px;
+}
+
+.app__search > .input-group > input {
+  box-shadow: none;
+}
+
+.app__search > .input-group > span > i.fa-search {
+  color: #585858;
+}
+
+.app__search > .input-group > input {
+  border-radius: inherit;
+}
+
+.app__content {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.app__content-headerTitle {
+  font-weight: 500;
+}
+
+.app__content-body .shadow {
+  box-shadow: 0px 0.23em 1rem -1px rgba(0,0,0,.15)!important;
+}
+
+.app__content-card {
+  max-height: 100%;
+  height: 110px;
+}
+
+.app__content-card .card {
+  height: 100%;
+}
+
+.app__content-card .card .row {
+  height: 100%;
+}
+
+.app__content-card .card .row .col-md-4 {
+  height: 100%;
+}
+
+.app__content-card .card .row .col-md-4 > img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.app__content-card .card .row .col-md-8 {
+  height: 100%;
+}
+
+.app__content-card .card .card-body {
+  padding: 8px 1rem;
+  height: 100%;
+}
+
+.card-body-header-title h6 {
+  font-weight: 590;
+}
+
+.card-body-header-title span {
+  font-size: 12px;
+}
+
+.card-body-header-icon i {
+  color: grey;
+}
+
+.card-body-headerStar i {
+  font-size: 10px;
+}
+
+.app__footer {
+  background-color: #f9f9f9;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px -7px 49px 2px rgb(255, 255, 255) !important;
+}
+
+.app__footer-buttons button.btn-main-active {
+  font-size: 13px;
+}
+
+.app__footer-buttons button.btn-main-active i {
+  color: white;
+}
+
+.app__footer-buttons button i {
+  color: grey;
+}
+
+.app__hotel-header {
+  color: gray;
+}
+
+.app__hotel-titles > h5 {
+  margin-bottom: .3rem;
+}
+
+.app__hotel-titles > span {
+  font-size: 15px;
+}
+
+.app__hotel-titles-stars i {
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.app__hotel-titles-stars i:first-child {
+  margin-left: 0;
+}
+
+.app__hotel-slider .carousel-inner {
+  border-radius: 22px;
+}
+
+.app__hotel-slider .carousel-item {
+  height: 200px;
+  transition: transform .6s ease-in-out !important;
+}
+
+.app__hotel-slider .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.app__hotel-slider .carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 10px;
+  height: 9px;
+  margin-left: 10px;
+}
+
+.app__hotel-content {
+  height: 100%;
+}
+
+.app__hotel-content-body p {
+  font-size: 14px;
+  color: #565656;
+}
